@@ -76,7 +76,7 @@ body {
   --lightness: 43%;
 }
 
-.guess-grid {
+.guess_grid {
   display: grid;
   justify-content: center;
   align-content: center;
