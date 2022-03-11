@@ -1,8 +1,8 @@
 // import targetWords from "./targetWords";
 // import dictionary from "./dictionary";
 
-const dictionary = require("./dictionary");
-const targetWords = require("./targetWords");
+const dictionary = require("./dictionary.json");
+const targetWords = require("./targetWords.json");
 
 const WORD_LENGTH = 5;
 const FLIP_ANIMATION_DURATION = 500;
