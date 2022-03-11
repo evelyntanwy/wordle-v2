@@ -1,6 +1,5 @@
 // Targeted words Wordle used
-
-[
+module.exports = [
   "cigar",
   "rebut",
   "sissy",

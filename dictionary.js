@@ -1,5 +1,4 @@
-// Array of words Wordle used
-[
+module.exports = [
   "aahed",
   "aalii",
   "aargh",
@@ -12971,5 +12970,5 @@
   "rower",
   "artsy",
   "rural",
-  "shave"
-]
+  "shave",
+];
