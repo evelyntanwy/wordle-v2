@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Wordle JS</title>
     <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="container_alert" data-container-alert></div>
+    <div class="alert_container" data-container-alert></div>
     <div data-guess-grid class="guess_grid"></div>
     <div class="keyboard">
       <button class="key" data-key="Q">Q</button>
@@ -33,6 +33,7 @@
       <button class="key" data-key="K">K</button>
       <button class="key" data-key="L">L</button>
       <br />
+      <button data-enter class="key_large">Enter</button>
       <button class="key" data-key="Z">Z</button>
       <button class="key" data-key="X">X</button>
       <button class="key" data-key="C">C</button>
@@ -41,7 +42,6 @@
       <button class="key" data-key="N">N</button>
       <button class="key" data-key="M">M</button>
       <button data-delete class="key_large">Del</button>
-      <button data-enter class="key_large">Enter</button>
     </div>
   </body>
 </html>
